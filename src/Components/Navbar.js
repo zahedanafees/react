@@ -12,7 +12,7 @@ function Navbar() {
         <h1>EXPLORE</h1>
         <Icon/>
       <ul className='myul'>
-        <li><DashboardIcon/><Link to='/'><p className='test'>Dashboard</p></Link></li>
+        <li><DashboardIcon/><Link to='/react'><p className='test'>Dashboard</p></Link></li>
         <li><FlightIcon/><Link to='/Flights'><p className='test'>Flights</p></Link></li>
         <li><ReportIcon/><Link to ='/Reports'><p className='test'>Reports</p></Link></li>
         <li><AssessmentIcon/><Link to ='/Statistics'><p className='test'>Statistics</p></Link></li>
