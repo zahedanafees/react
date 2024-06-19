@@ -4,7 +4,7 @@ import Navbar from './Components/Navbar';
 import {BrowserRouter as Router,Routes,Route} from 'react-router-dom';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-//import Dashboard from './Components/Dashboard'; 
+import Dashboard from './Components/Dashboard'; 
 import Newdash from './Components/Newdash';
 import Flights from './Components/Flights';
 import Reports from './Components/Reports';
@@ -24,7 +24,7 @@ function App() {
             <Col sm={2}><Navbar /></Col>
             <Col sm={10}>
                 <Routes>
-                 <Route path='/react' exact Component={Newdash}/>
+                 <Route path='/react' exact Component={Dashboard}/>
                   <Route path ='/Flights' exact Component={Flights}/>
                   <Route path ='/Reports' exact Component={Reports}/>
                   <Route path ='/Graphs' exact Component={Graphs}/>

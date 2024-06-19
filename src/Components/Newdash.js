@@ -3,7 +3,6 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
-import { BarChart } from '@mui/x-charts/BarChart';
 import Cards from './Charts';
 
 function Dashboard() {
